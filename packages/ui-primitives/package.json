@@ -1,0 +1,24 @@
+{
+  "name": "@boilerplate/ui-primitives",
+  "version": "1.0.0",
+  "description": "Shared UI Primitives and Design System components",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "private": true,
+  "files": [
+    "src",
+    "lib"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "@shopify/restyle": "*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint:check": "eslint src --ext .ts,.tsx --max-warnings 0"
+  },
+  "devDependencies": {
+    "@boilerplate/config": "workspace:*"
+  }
+}
