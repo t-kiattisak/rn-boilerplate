@@ -1,0 +1,17 @@
+pre-commit:
+  commands:
+    prettier:
+      glob: '*.{ts,tsx,js,jsx,json,md,yml,yaml}'
+      run: yarn exec prettier --write {staged_files}
+
+    eslint:
+      glob: 'src/**/*.{ts,tsx,js,jsx}'
+      run: yarn lint:fix
+
+    typescript:
+      glob: '*.{ts,tsx}'
+      run: yarn typecheck
+pre-push:
+  commands:
+    tests:
+      run: yarn test:ci

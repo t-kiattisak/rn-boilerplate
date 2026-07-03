@@ -1,0 +1,51 @@
+{
+  "name": "boilerplate-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "yarn@4.9.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "mobile": "yarn workspace mobile-app",
+    "start": "yarn mobile start",
+    "android": "yarn mobile android",
+    "android:dev": "yarn mobile android:dev",
+    "android:stg": "yarn mobile android:stg",
+    "android:prod": "yarn mobile android:prod",
+    "android:build:dev": "yarn mobile android:build:dev",
+    "android:build:stg": "yarn mobile android:build:stg",
+    "android:build:prod": "yarn mobile android:build:prod",
+    "android:build:release": "yarn mobile android:build:release",
+    "android:build:apk": "yarn mobile android:build:apk",
+    "android:build:apk:dev": "yarn mobile android:build:apk:dev",
+    "android:build:apk:stg": "yarn mobile android:build:apk:stg",
+    "android:build:apk:prod": "yarn mobile android:build:apk:prod",
+    "android:build:aab": "yarn mobile android:build:aab",
+    "android:build:aar": "yarn mobile android:build:aar",
+    "ios": "yarn mobile ios",
+    "ios:dev": "yarn mobile ios:dev",
+    "ios:stg": "yarn mobile ios:stg",
+    "ios:prod": "yarn mobile ios:prod",
+    "ios:archive:dev": "yarn mobile ios:archive:dev",
+    "ios:archive:stg": "yarn mobile ios:archive:stg",
+    "ios:archive:prod": "yarn mobile ios:archive:prod",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.json",
+    "lint:check": "turbo run lint:check",
+    "format": "prettier --write .",
+    "format:check": "turbo run format:check",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "prune": "turbo prune"
+  },
+  "devDependencies": {
+    "@boilerplate/config": "workspace:*",
+    "eslint": "9.31.0",
+    "eslint-plugin-i18n-json": "4.0.1",
+    "prettier": "3.6.2",
+    "prettier-plugin-organize-imports": "4.3.0",
+    "turbo": "2.10.0",
+    "typescript": "5.8.3"
+  }
+}

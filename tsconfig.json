@@ -1,0 +1,4 @@
+{
+  "extends": "@telehealth/config/base.json",
+  "exclude": ["node_modules", "**/node_modules", "**/build", "**/dist"]
+}
