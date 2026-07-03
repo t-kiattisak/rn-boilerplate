@@ -209,13 +209,6 @@ function getMetroConfig(projectRoot, options = {}) {
     },
 
     transformer: {
-      babelTransformerPath: (() => {
-        try {
-          return require.resolve('react-native-svg-transformer/react-native');
-        } catch (e) {
-          return require.resolve('react-native-babel-transformer');
-        }
-      })(),
       getTransformOptions: async () => ({
         transform: {
           experimentalImportSupport: false,
@@ -224,6 +217,13 @@ function getMetroConfig(projectRoot, options = {}) {
       }),
     },
   };
+
+  try {
+    const svgTransformerPath = require.resolve('react-native-svg-transformer/react-native');
+    config.transformer.babelTransformerPath = svgTransformerPath;
+  } catch (e) {
+    // Keep default by not overriding babelTransformerPath
+  }
 
   return wrapWithReanimatedMetroConfig(mergeConfig(defaultConfig, config));
 }
