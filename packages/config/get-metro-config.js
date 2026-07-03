@@ -213,7 +213,7 @@ function getMetroConfig(projectRoot, options = {}) {
         try {
           return require.resolve('react-native-svg-transformer/react-native');
         } catch (e) {
-          return undefined;
+          return require.resolve('react-native-babel-transformer');
         }
       })(),
       getTransformOptions: async () => ({
