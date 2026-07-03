@@ -1,0 +1,16 @@
+{
+  "name": "@boilerplate/jest-config",
+  "version": "1.0.0",
+  "description": "Shared Jest configuration for boilerplate monorepo packages",
+  "main": "index.js",
+  "private": true,
+  "files": [
+    "*.js",
+    "index.js"
+  ],
+  "dependencies": {
+    "@types/jest": "30.0.0",
+    "jest": "30.4.2",
+    "ts-jest": "29.4.9"
+  }
+}
