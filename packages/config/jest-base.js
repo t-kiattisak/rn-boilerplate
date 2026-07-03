@@ -5,7 +5,7 @@
  * Uses ts-jest for type-safe transforms.
  *
  * Usage:
- *   const base = require('@telehealth/config/jest-base');
+ *   const base = require('@boilerplate/config/jest-base');
  *   module.exports = { ...base };
  */
 

@@ -1,6 +1,6 @@
 import { Linking } from 'react-native';
 
-const DEEP_LINK_SCHEME = 'telehealth://telehealththailand.org';
+const DEEP_LINK_SCHEME = 'boilerplate://boilerplatethailand.org';
 
 export const openAnswerCallDeepLink = async (
   callId: string

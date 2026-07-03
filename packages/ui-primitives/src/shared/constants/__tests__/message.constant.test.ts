@@ -5,7 +5,7 @@ describe('messageConstant', () => {
     expect(Object.keys(messageConstant).sort()).toEqual([
       'paotangLogin',
       'reqLoginQuestionnaire',
-      'teleHealthThailand',
+      'boilerplateApp',
     ]);
   });
 

@@ -21,7 +21,7 @@ describe('deeplink.utility', () => {
     await openAnswerCallDeepLink('call-abc');
 
     expect(Linking.openURL).toHaveBeenCalledWith(
-      'telehealth://telehealththailand.org/calling?action=answer&callId=call-abc'
+      'boilerplate://boilerplatethailand.org/calling?action=answer&callId=call-abc'
     );
   });
 
@@ -29,7 +29,7 @@ describe('deeplink.utility', () => {
     await openHomeDeepLink();
 
     expect(Linking.openURL).toHaveBeenCalledWith(
-      'telehealth://telehealththailand.org'
+      'boilerplate://boilerplatethailand.org'
     );
   });
 

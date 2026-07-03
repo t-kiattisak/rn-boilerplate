@@ -5,7 +5,7 @@
  * Uses babel-jest with @react-native/babel-preset.
  *
  * Usage:
- *   const base = require('@telehealth/jest-config/jest-rn-base');
+ *   const base = require('@boilerplate/jest-config/jest-rn-base');
  *   module.exports = {
  *     ...base,
  *     // app-specific overrides (moduleNameMapper, transform plugins, etc.)
