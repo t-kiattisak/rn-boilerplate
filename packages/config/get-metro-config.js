@@ -6,9 +6,13 @@ const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
 const escapeModule = require('escape-string-regexp');
 const escape = escapeModule.default || escapeModule;
 const glob = require('fast-glob');
-const {
-  wrapWithReanimatedMetroConfig,
-} = require('react-native-reanimated/metro-config');
+let wrapWithReanimatedMetroConfig = (cfg) => cfg;
+try {
+  const reanimated = require('react-native-reanimated/metro-config');
+  wrapWithReanimatedMetroConfig = reanimated.wrapWithReanimatedMetroConfig;
+} catch (e) {
+  // react-native-reanimated is optional
+}
 
 /**
  * @param {string} projectRoot - The path of the app project (typically __dirname)
@@ -170,6 +174,17 @@ function getMetroConfig(projectRoot, options = {}) {
       resolveRequest: (originalContext, moduleName, platform) => {
         let context = originalContext;
 
+        // Intercept alias imports starting with "@/"
+        if (moduleName.startsWith('@/')) {
+          let targetPath;
+          if (context.originModulePath.includes('packages/ui-primitives')) {
+            targetPath = path.resolve(root, 'packages/ui-primitives/src', moduleName.slice(2));
+          } else {
+            targetPath = path.resolve(projectRoot, 'src', moduleName.slice(2));
+          }
+          return context.resolveRequest(context, targetPath, platform);
+        }
+
         if (Object.keys(packages).some((name) => moduleName.startsWith(name))) {
           context = {
             ...context,
@@ -194,9 +209,13 @@ function getMetroConfig(projectRoot, options = {}) {
     },
 
     transformer: {
-      babelTransformerPath: require.resolve(
-        'react-native-svg-transformer/react-native'
-      ),
+      babelTransformerPath: (() => {
+        try {
+          return require.resolve('react-native-svg-transformer/react-native');
+        } catch (e) {
+          return undefined;
+        }
+      })(),
       getTransformOptions: async () => ({
         transform: {
           experimentalImportSupport: false,
