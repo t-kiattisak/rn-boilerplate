@@ -3782,47 +3782,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"BoilerplateApp@workspace:apps/mobile-app":
-  version: 0.0.0-use.local
-  resolution: "BoilerplateApp@workspace:apps/mobile-app"
-  dependencies:
-    "@babel/core": "npm:^7.25.2"
-    "@babel/preset-env": "npm:^7.25.3"
-    "@babel/runtime": "npm:^7.25.0"
-    "@boilerplate/device-integration": "workspace:*"
-    "@boilerplate/device-sdk": "workspace:*"
-    "@boilerplate/ui-primitives": "workspace:*"
-    "@react-native-community/cli": "npm:20.1.0"
-    "@react-native-community/cli-platform-android": "npm:20.1.0"
-    "@react-native-community/cli-platform-ios": "npm:20.1.0"
-    "@react-native-vector-icons/ionicons": "npm:13.1.2"
-    "@react-native/babel-preset": "npm:0.86.0"
-    "@react-native/eslint-config": "npm:0.86.0"
-    "@react-native/metro-config": "npm:0.86.0"
-    "@react-native/new-app-screen": "npm:0.86.0"
-    "@react-native/typescript-config": "npm:0.86.0"
-    "@react-navigation/native": "npm:7.2.4"
-    "@react-navigation/stack": "npm:7.9.2"
-    "@shopify/restyle": "npm:2.4.5"
-    "@tanstack/react-query": "npm:5.101.1"
-    "@types/jest": "npm:^29.5.13"
-    "@types/react": "npm:^19.2.0"
-    "@types/react-test-renderer": "npm:^19.1.0"
-    eslint: "npm:^8.19.0"
-    i18next: "npm:26.3.2"
-    jest: "npm:^29.6.3"
-    prettier: "npm:2.8.8"
-    react: "npm:19.2.3"
-    react-i18next: "npm:17.0.8"
-    react-native: "npm:0.86.0"
-    react-native-gesture-handler: "npm:2.31.1"
-    react-native-safe-area-context: "npm:^5.5.2"
-    react-native-screens: "npm:4.18.0"
-    react-test-renderer: "npm:19.2.3"
-    typescript: "npm:^5.8.3"
-  languageName: unknown
-  linkType: soft
-
 "abbrev@npm:^5.0.0":
   version: 5.0.0
   resolution: "abbrev@npm:5.0.0"
@@ -8870,6 +8829,47 @@ __metadata:
   checksum: 10/d71b8dcd4b5af2fe13ecf3bd24070263489404fe216488c5ba7e38ece1f54daf219e72a833a3a2dc404331e870e9f44963a33399589490956bff003a3404d3b2
   languageName: node
   linkType: hard
+
+"mobile-app@workspace:apps/mobile-app":
+  version: 0.0.0-use.local
+  resolution: "mobile-app@workspace:apps/mobile-app"
+  dependencies:
+    "@babel/core": "npm:^7.25.2"
+    "@babel/preset-env": "npm:^7.25.3"
+    "@babel/runtime": "npm:^7.25.0"
+    "@boilerplate/device-integration": "workspace:*"
+    "@boilerplate/device-sdk": "workspace:*"
+    "@boilerplate/ui-primitives": "workspace:*"
+    "@react-native-community/cli": "npm:20.1.0"
+    "@react-native-community/cli-platform-android": "npm:20.1.0"
+    "@react-native-community/cli-platform-ios": "npm:20.1.0"
+    "@react-native-vector-icons/ionicons": "npm:13.1.2"
+    "@react-native/babel-preset": "npm:0.86.0"
+    "@react-native/eslint-config": "npm:0.86.0"
+    "@react-native/metro-config": "npm:0.86.0"
+    "@react-native/new-app-screen": "npm:0.86.0"
+    "@react-native/typescript-config": "npm:0.86.0"
+    "@react-navigation/native": "npm:7.2.4"
+    "@react-navigation/stack": "npm:7.9.2"
+    "@shopify/restyle": "npm:2.4.5"
+    "@tanstack/react-query": "npm:5.101.1"
+    "@types/jest": "npm:^29.5.13"
+    "@types/react": "npm:^19.2.0"
+    "@types/react-test-renderer": "npm:^19.1.0"
+    eslint: "npm:^8.19.0"
+    i18next: "npm:26.3.2"
+    jest: "npm:^29.6.3"
+    prettier: "npm:2.8.8"
+    react: "npm:19.2.3"
+    react-i18next: "npm:17.0.8"
+    react-native: "npm:0.86.0"
+    react-native-gesture-handler: "npm:2.31.1"
+    react-native-safe-area-context: "npm:^5.5.2"
+    react-native-screens: "npm:4.18.0"
+    react-test-renderer: "npm:19.2.3"
+    typescript: "npm:^5.8.3"
+  languageName: unknown
+  linkType: soft
 
 "ms@npm:2.0.0":
   version: 2.0.0
