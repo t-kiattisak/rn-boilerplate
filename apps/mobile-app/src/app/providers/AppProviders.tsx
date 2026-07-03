@@ -4,6 +4,7 @@ import { I18nProvider } from './I18nProvider';
 import { ThemeProvider } from './ThemeProvider';
 import { QueryProvider } from './QueryProvider';
 import { LoadingProvider } from '@boilerplate/ui-primitives';
+import { DeviceSessionProvider } from '@boilerplate/device-integration';
 
 export const AppProviders = ({ children }: PropsWithChildren) => {
   return (
@@ -12,6 +13,7 @@ export const AppProviders = ({ children }: PropsWithChildren) => {
         I18nProvider,
         ThemeProvider,
         QueryProvider,
+        DeviceSessionProvider,
       ]}
     >
       {children}
