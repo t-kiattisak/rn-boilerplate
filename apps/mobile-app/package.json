@@ -10,22 +10,22 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "19.2.3",
-    "react-native": "0.86.0",
-    "@react-native/new-app-screen": "0.86.0",
-    "react-native-safe-area-context": "^5.5.2",
-    "@boilerplate/ui-primitives": "workspace:*",
     "@boilerplate/device-integration": "workspace:*",
     "@boilerplate/device-sdk": "workspace:*",
-    "@shopify/restyle": "2.4.5",
+    "@boilerplate/ui-primitives": "workspace:*",
+    "@react-native-vector-icons/ionicons": "13.1.2",
+    "@react-native/new-app-screen": "0.86.0",
     "@react-navigation/native": "7.2.4",
     "@react-navigation/stack": "7.9.2",
-    "react-native-gesture-handler": "2.31.1",
-    "react-native-screens": "4.18.0",
-    "@react-native-vector-icons/ionicons": "13.1.2",
+    "@shopify/restyle": "2.4.5",
+    "@tanstack/react-query": "5.101.1",
     "i18next": "26.3.2",
+    "react": "19.2.3",
     "react-i18next": "17.0.8",
-    "@tanstack/react-query": "5.101.1"
+    "react-native": "0.86.0",
+    "react-native-gesture-handler": "2.31.1",
+    "react-native-safe-area-context": "^5.5.2",
+    "react-native-screens": "4.18.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

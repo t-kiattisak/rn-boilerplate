@@ -10,9 +10,9 @@
     "lib"
   ],
   "peerDependencies": {
+    "@shopify/restyle": "*",
     "react": "*",
-    "react-native": "*",
-    "@shopify/restyle": "*"
+    "react-native": "*"
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
