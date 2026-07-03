@@ -5,7 +5,7 @@ import { StatusBar } from 'react-native';
 
 import { RootStackParamList } from '../types/navigation';
 import { theme } from '@boilerplate/ui-primitives';
-import { navigationRef } from '@boilerplate/ui-primitives/src/shared/utility/navigation';
+import { navigationRef } from '@/shared/utility/navigation';
 
 // Lazy load feature screens (created in step 8)
 import DashboardScreen from '../../features/device/screens/DashboardScreen';
