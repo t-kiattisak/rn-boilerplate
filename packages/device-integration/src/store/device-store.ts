@@ -1,7 +1,8 @@
 import type { MeasurementData } from '@boilerplate/device-sdk';
-import type { ExampleDevice, ExampleEventMap } from '../deviceEmitter/example-event-map';
-import type { DeviceEmitter } from '../deviceEmitter/device-emitter';
 
+import type { DeviceEmitter } from '../deviceEmitter/device-emitter';
+import type { ExampleDevice, ExampleEventMap } from '../deviceEmitter/example-event-map';
+ 
 export type DeviceSessionPhase =
   | 'idle'
   | 'scanning'
@@ -85,10 +86,10 @@ export function createDeviceStore(
     emitter.on('device:connected', ({ device }) => {
       updateState({
         activeDevice: device,
+        error: null,
         isConnected: true,
         isListening: true,
         phase: 'listening',
-        error: null,
       });
     }),
 
@@ -104,15 +105,15 @@ export function createDeviceStore(
     emitter.on('device:error', ({ code, message }) => {
       updateState({
         error: { code, message },
-        phase: 'error',
         isScanning: false,
+        phase: 'error',
       });
     }),
 
     emitter.on('measurement:received', (data) => {
       updateState({
-        measurement: data,
         lastMeasuredAt: Date.now(),
+        measurement: data,
         phase: 'received',
       });
     }),
@@ -133,10 +134,10 @@ export function createDeviceStore(
       return state;
     },
     markConnecting() {
-      updateState({ phase: 'connecting', isScanning: false });
+      updateState({ isScanning: false, phase: 'connecting' });
     },
     markScanning() {
-      updateState({ phase: 'scanning', isScanning: true, devices: [] });
+      updateState({ devices: [], isScanning: true, phase: 'scanning' });
     },
     reset() {
       updateState({ ...initialDeviceState });
