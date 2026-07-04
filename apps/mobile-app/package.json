@@ -19,6 +19,7 @@
     "@boilerplate/device-integration": "workspace:*",
     "@boilerplate/device-sdk": "workspace:*",
     "@boilerplate/ui-primitives": "workspace:*",
+    "@d11/react-native-fast-image": "8.13.0",
     "@react-native-vector-icons/ant-design": "13.1.2",
     "@react-native-vector-icons/entypo": "13.1.2",
     "@react-native-vector-icons/evil-icons": "13.1.2",
@@ -44,7 +45,9 @@
     "react-native": "0.86.0",
     "react-native-gesture-handler": "3.0.2",
     "react-native-safe-area-context": "^5.5.2",
-    "react-native-screens": "4.18.0"
+    "react-native-screens": "4.18.0",
+    "react-native-shadow-2": "7.1.2",
+    "react-native-svg": "15.15.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
