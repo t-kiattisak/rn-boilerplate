@@ -1,5 +1,5 @@
-import { Typography } from '@/shared/components/Text';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { Typography } from '..';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 
 describe('Typography', () => {

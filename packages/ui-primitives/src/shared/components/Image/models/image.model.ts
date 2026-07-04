@@ -1,6 +1,6 @@
 import { ImageSourcePropType, ImageStyle, StyleProp } from 'react-native';
 
-import { ImageAdapter } from '@/shared/components/Image/models/imageAdapter.model';
+import { ImageAdapter } from './imageAdapter.model';
 
 export type ImageResizeMode = 'cover' | 'contain' | 'stretch' | 'center';
 export type ImagePriority = 'low' | 'normal' | 'high';

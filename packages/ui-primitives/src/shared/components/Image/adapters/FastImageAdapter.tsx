@@ -6,8 +6,8 @@ import {
   ImageResizeMode,
   ImageSource,
   ImageSourceProp,
-} from '@/shared/components/Image/models/image.model';
-import { ImageAdapter } from '@/shared/components/Image/models/imageAdapter.model';
+} from '../models/image.model';
+import { ImageAdapter } from '../models/imageAdapter.model';
 
 export const FastImageAdapter: ImageAdapter = {
   Component: RnFastImage as ImageAdapter['Component'],

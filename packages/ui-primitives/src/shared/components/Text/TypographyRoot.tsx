@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 
-import { Box } from '@/shared/components/Box';
-import { Slot } from '@/shared/components/Slot';
-import type { SlottableBoxProps } from '@/shared/components/Text/models/typography.model';
+import { Box } from '../Box';
+import { Slot } from '../Slot';
+import type { SlottableBoxProps } from './models/typography.model';
 
 const Root: FC<SlottableBoxProps> = ({
   asChild = false,

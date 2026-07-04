@@ -1,7 +1,7 @@
 import {
   isEmptyObject,
   isObject,
-} from '@/shared/utility/validators/object.validator';
+} from '../object.validator';
 
 describe('object.validator', () => {
   describe('isObject', () => {

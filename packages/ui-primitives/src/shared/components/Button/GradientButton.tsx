@@ -6,12 +6,12 @@ import {
   UnstyleButton,
   UnstyleButtonProps,
   UnstyleButtonRef,
-} from '@/shared/components/Button/UnstyleButton';
-import { theme } from '@/shared/theme';
+} from './UnstyleButton';
+import { theme } from '../../theme';
 import {
   createVariants,
   type CreateVariantsConfig,
-} from '@/shared/utility/factories';
+} from '../../utility/factories';
 
 interface GradientVariantResult extends Record<string, unknown> {
   colors: string[];

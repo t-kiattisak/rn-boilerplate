@@ -4,7 +4,7 @@ import {
   isString,
   isStringWithLength,
   isTrimmedString,
-} from '@/shared/utility/validators/string.validator';
+} from '../string.validator';
 
 describe('string.validator', () => {
   describe('isString', () => {

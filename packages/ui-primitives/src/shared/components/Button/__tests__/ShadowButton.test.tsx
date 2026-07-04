@@ -1,5 +1,5 @@
-import { ShadowButton } from '@/shared/components/Button';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { ShadowButton } from '..';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 import { Pressable } from 'react-native';
 

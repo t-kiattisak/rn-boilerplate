@@ -1,5 +1,5 @@
-import { Card } from '@/shared/components/Card';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { Card } from '..';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 
 describe('Card', () => {

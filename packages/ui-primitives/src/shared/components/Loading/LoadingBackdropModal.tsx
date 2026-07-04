@@ -3,8 +3,8 @@ import { Modal, StyleSheet } from 'react-native';
 
 import type { LoadingBackdropProps } from './models/loadingBackdrop.model';
 
-import { Box } from '@/shared/components/Box';
-import { DotLoaderAnimation } from '@/shared/components/LottieAnimation';
+import { Box } from '../Box';
+import { DotLoaderAnimation } from '../LottieAnimation';
 
 const LoadingBackdropModalBase = ({
   opacity = 0.4,

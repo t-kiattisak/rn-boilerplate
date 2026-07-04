@@ -1,5 +1,5 @@
-import { UnstyleButton } from '@/shared/components/Button';
-import { act, renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { UnstyleButton } from '..';
+import { act, renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 import { Keyboard, Pressable } from 'react-native';
 

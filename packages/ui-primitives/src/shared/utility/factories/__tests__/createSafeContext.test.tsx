@@ -1,4 +1,4 @@
-import { createSafeContext } from '@/shared/utility/factories';
+import { createSafeContext } from '..';
 import { render, screen } from '@testing-library/react-native';
 import React from 'react';
 import { Text, View } from 'react-native';

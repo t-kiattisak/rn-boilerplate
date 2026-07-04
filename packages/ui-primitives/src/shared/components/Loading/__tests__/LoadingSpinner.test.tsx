@@ -1,5 +1,5 @@
-import { LoadingSpinner } from '@/shared/components/Loading';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { LoadingSpinner } from '..';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 
 describe('LoadingSpinner', () => {

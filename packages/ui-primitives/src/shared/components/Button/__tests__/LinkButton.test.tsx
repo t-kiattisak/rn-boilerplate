@@ -1,5 +1,5 @@
-import { LinkButton } from '@/shared/components/Button/LinkButton';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { LinkButton } from '../LinkButton';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React, { ComponentProps } from 'react';
 
 jest.mock('@react-navigation/native', () => ({

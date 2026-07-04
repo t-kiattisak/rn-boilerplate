@@ -1,5 +1,5 @@
-import { Icon } from '@/shared/components/Icon';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { Icon } from '..';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 
 describe('Icon', () => {

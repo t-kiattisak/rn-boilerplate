@@ -5,7 +5,7 @@ import {
   optionSchema,
   optionsSchema,
   phoneCountrySchema,
-} from '@/shared/constants/schema.constant';
+} from '../schema.constant';
 
 describe('schema.constant', () => {
   describe('booleanChoiceConstant', () => {

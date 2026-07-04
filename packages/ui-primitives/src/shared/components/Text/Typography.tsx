@@ -2,12 +2,12 @@ import { createText, TextProps as RestyleTextProps } from '@shopify/restyle';
 import React, { FC, ReactNode, useMemo } from 'react';
 import { StyleProp, TextStyle } from 'react-native';
 
-import { BaseComponentProps } from '@/models/common/baseComponent.model';
-import { Slot } from '@/shared/components/Slot';
-import { TypographyRequiredMark } from '@/shared/components/Text/TypographyRequiredMark';
-import { TypographyRoot } from '@/shared/components/Text/TypographyRoot';
-import { Theme } from '@/shared/theme';
-import { createVariants } from '@/shared/utility/factories/createVariants.factory';
+import { BaseComponentProps } from '../../../models/common/baseComponent.model';
+import { Slot } from '../Slot';
+import { TypographyRequiredMark } from './TypographyRequiredMark';
+import { TypographyRoot } from './TypographyRoot';
+import { Theme } from '../../theme';
+import { createVariants } from '../../utility/factories/createVariants.factory';
 
 const RText = createText<Theme>();
 

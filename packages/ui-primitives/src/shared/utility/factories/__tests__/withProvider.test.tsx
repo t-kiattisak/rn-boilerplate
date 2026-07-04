@@ -1,4 +1,4 @@
-import { withProvider } from '@/shared/utility/factories';
+import { withProvider } from '..';
 import { render, screen } from '@testing-library/react-native';
 import React from 'react';
 import { Text, View } from 'react-native';

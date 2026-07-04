@@ -1,4 +1,4 @@
-import { isPromise } from '@/shared/utility/validators/promise.validator';
+import { isPromise } from '../promise.validator';
 
 describe('isPromise', () => {
   describe('should return true for valid promises', () => {

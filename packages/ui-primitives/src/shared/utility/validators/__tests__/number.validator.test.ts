@@ -4,7 +4,7 @@ import {
   isNegativeNumber,
   isNumber,
   isPositiveNumber,
-} from '@/shared/utility/validators/number.validator';
+} from '../number.validator';
 
 describe('number.validator', () => {
   describe('isNumber', () => {

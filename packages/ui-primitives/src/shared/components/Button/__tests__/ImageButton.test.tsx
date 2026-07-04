@@ -1,5 +1,5 @@
-import { ImageButton } from '@/shared/components/Button/ImageButton';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { ImageButton } from '../ImageButton';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 import { Image } from 'react-native';
 

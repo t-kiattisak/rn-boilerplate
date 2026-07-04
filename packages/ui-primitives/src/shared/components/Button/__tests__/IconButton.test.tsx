@@ -1,5 +1,5 @@
-import { IconButton } from '@/shared/components/Button/IconButton';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { IconButton } from '../IconButton';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 import { Text } from 'react-native';
 

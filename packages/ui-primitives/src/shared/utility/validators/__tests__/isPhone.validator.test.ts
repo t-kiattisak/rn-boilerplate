@@ -1,4 +1,4 @@
-import { isPhone } from '@/shared/utility/validators/isPhone.validator';
+import { isPhone } from '../isPhone.validator';
 
 describe('isPhone', () => {
   describe('valid phone numbers', () => {

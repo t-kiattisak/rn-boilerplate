@@ -1,4 +1,4 @@
-import { regexConstant } from '@/shared/constants/regex.constant';
+import { regexConstant } from '../regex.constant';
 
 describe('regexConstant', () => {
   describe('phoneNumber', () => {

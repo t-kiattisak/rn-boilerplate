@@ -7,7 +7,7 @@ import type {
   ImageSourceProp,
 } from './image.model';
 
-import { FastImageProps } from '@/shared/components/Image';
+import { FastImageProps } from '..';
 
 export interface ImageAdapter {
   Component: React.ComponentType<FastImageProps> & FastImageStaticProperties;

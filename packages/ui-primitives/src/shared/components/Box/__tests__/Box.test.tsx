@@ -1,5 +1,5 @@
-import { Box } from '@/shared/components/Box';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { Box } from '..';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 
 describe('Box', () => {

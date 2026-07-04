@@ -1,4 +1,4 @@
-import { isBoolean } from '@/shared/utility/validators/boolean.validator';
+import { isBoolean } from '../boolean.validator';
 
 describe('isBoolean', () => {
   it('should return true for boolean true', () => {

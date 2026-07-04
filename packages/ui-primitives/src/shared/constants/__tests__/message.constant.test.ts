@@ -1,4 +1,4 @@
-import { messageConstant } from '@/shared/constants/message.constant';
+import { messageConstant } from '../message.constant';
 
 describe('messageConstant', () => {
   it('exposes expected message keys', () => {

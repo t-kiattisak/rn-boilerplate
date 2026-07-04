@@ -1,4 +1,4 @@
-import { errorMessageConstant } from '@/shared/constants/errorMessage.constant';
+import { errorMessageConstant } from '../errorMessage.constant';
 
 describe('errorMessageConstant', () => {
   it('exposes expected error message keys', () => {

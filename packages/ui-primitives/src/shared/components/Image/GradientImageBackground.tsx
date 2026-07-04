@@ -12,9 +12,9 @@ import LinearGradient, {
 import { FastImage } from './Image';
 import type { ImageProps } from './models/image.model';
 
-import { BaseComponentProps } from '@/models/common/baseComponent.model';
-import { UnstyleButton } from '@/shared/components/Button/UnstyleButton';
-import { theme } from '@/shared/theme';
+import { BaseComponentProps } from '../../../models/common/baseComponent.model';
+import { UnstyleButton } from '../Button/UnstyleButton';
+import { theme } from '../../theme';
 
 type GradientMode = 'bottom' | 'full' | 'none';
 

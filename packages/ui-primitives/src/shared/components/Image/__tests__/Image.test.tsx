@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { FastImage } from '@/shared/components/Image';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { FastImage } from '..';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 
 describe('Image (FastImage)', () => {
   const mockUriSource = { uri: 'https://example.com/image.jpg' };

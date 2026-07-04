@@ -2,7 +2,7 @@ import {
   isArray,
   isEmptyArray,
   isNonEmptyArray,
-} from '@/shared/utility/validators/array.validator';
+} from '../array.validator';
 
 describe('array.validator', () => {
   describe('isArray', () => {

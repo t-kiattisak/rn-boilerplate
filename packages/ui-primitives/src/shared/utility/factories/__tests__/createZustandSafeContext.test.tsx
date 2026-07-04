@@ -1,4 +1,4 @@
-import { CreateStateFn, createZustandSafeContext } from '@/shared/utility/factories/createZustandSafeContext.factory';
+import { CreateStateFn, createZustandSafeContext } from '../createZustandSafeContext.factory';
 import { act, render, renderHook } from '@testing-library/react-native';
 import React from 'react';
 import { Text, View } from 'react-native';

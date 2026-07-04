@@ -1,5 +1,5 @@
-import { GradientButton } from '@/shared/components/Button';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { GradientButton } from '..';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 
 describe('GradientButton', () => {

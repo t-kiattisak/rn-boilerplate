@@ -1,8 +1,8 @@
 import { createText } from '@shopify/restyle';
 import React, { FC } from 'react';
 
-import type { TypographyRequiredMarkProps } from '@/shared/components/Text/models/typography.model';
-import { Theme } from '@/shared/theme';
+import type { TypographyRequiredMarkProps } from './models/typography.model';
+import { Theme } from '../../theme';
 
 const RText = createText<Theme>();
 

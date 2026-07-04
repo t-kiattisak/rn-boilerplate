@@ -1,4 +1,4 @@
-import { isCitizenId } from '@/shared/utility/validators/isCitizenId.validator';
+import { isCitizenId } from '../isCitizenId.validator';
 
 describe('isCitizenId', () => {
   describe('valid citizen IDs', () => {

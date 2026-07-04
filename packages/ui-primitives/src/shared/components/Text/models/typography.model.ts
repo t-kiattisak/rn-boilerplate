@@ -1,8 +1,8 @@
 import type { TextProps as RestyleTextProps } from '@shopify/restyle';
 import type { ComponentPropsWithoutRef, ElementType } from 'react';
 
-import { Box } from '@/shared/components/Box';
-import { Theme } from '@/shared/theme';
+import { Box } from '../../Box';
+import { Theme } from '../../../theme';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type ComponentPropsWithAsChild<T extends ElementType<any>> =

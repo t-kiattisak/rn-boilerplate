@@ -7,11 +7,11 @@ import {
   UnstyleButton,
   UnstyleButtonProps,
   UnstyleButtonRef,
-} from '@/shared/components/Button/UnstyleButton';
+} from './UnstyleButton';
 import {
   createVariants,
   type CreateVariantsConfig,
-} from '@/shared/utility/factories';
+} from '../../utility/factories';
 
 interface ShadowVariantResult extends Record<string, unknown> {
   buttonStyle?: StyleProp<ViewStyle>;

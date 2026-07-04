@@ -6,12 +6,12 @@ import {
   FastImage,
   FastImageProps,
   ImageProps,
-} from '@/shared/components/Image';
+} from '../Image';
 import {
   createVariants,
   type CreateVariantsConfig,
-} from '@/shared/utility/factories';
-import { resolveSourceFastImage } from '@/shared/utility/resolvers';
+} from '../../utility/factories';
+import { resolveSourceFastImage } from '../../utility/resolvers';
 
 type Size = 'sm' | 'md' | 'lg';
 

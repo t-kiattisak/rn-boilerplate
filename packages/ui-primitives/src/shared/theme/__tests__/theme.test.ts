@@ -1,9 +1,9 @@
 import { describe, expect, it } from '@jest/globals';
 
-import { palette } from '@/shared/theme/colors';
-import { spacing } from '@/shared/theme/spacing';
-import { theme } from '@/shared/theme/theme';
-import { typography } from '@/shared/theme/typography';
+import { palette } from '../colors';
+import { spacing } from '../spacing';
+import { theme } from '../theme';
+import { typography } from '../typography';
 
 describe('Theme System', () => {
   describe('palette', () => {

@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
-import { Box } from '@/shared/components/Box';
-import { DotLoaderAnimation } from '@/shared/components/LottieAnimation';
+import { Box } from '../Box';
+import { DotLoaderAnimation } from '../LottieAnimation';
 
 interface LoadingDotsProps {
   size?: number;

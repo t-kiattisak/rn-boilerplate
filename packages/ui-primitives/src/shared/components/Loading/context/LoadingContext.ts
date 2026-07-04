@@ -1,4 +1,4 @@
-import { createSafeContext } from '@/shared/utility/factories';
+import { createSafeContext } from '../../../utility/factories';
 
 export interface LoadingContextValue {
   register(id: string): void;

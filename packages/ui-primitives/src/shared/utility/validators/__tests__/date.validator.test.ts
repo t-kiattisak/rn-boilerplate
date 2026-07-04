@@ -1,4 +1,4 @@
-import { isDate, isValidDate } from '@/shared/utility/validators/date.validator';
+import { isDate, isValidDate } from '../date.validator';
 import dayjs from 'dayjs';
 
 

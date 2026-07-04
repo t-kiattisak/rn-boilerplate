@@ -6,7 +6,7 @@ import { Button, ButtonProps } from './Button';
 import {
   createVariants,
   type CreateVariantsConfig,
-} from '@/shared/utility/factories';
+} from '../../utility/factories';
 
 type Size = 'sm' | 'md' | 'lg';
 

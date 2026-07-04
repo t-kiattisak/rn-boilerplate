@@ -23,16 +23,16 @@ import {
 
 import { useButtonPress } from './hooks/useButtonPress';
 
-import { BaseComponentProps } from '@/models/common/baseComponent.model';
-import { Slot } from '@/shared/components/Slot';
-import { Typography } from '@/shared/components/Text';
-import { testIdsConstant } from '@/shared/constants/testIds.constant';
-import { Theme } from '@/shared/theme';
+import { BaseComponentProps } from '../../../models/common/baseComponent.model';
+import { Slot } from '../Slot';
+import { Typography } from '../Text';
+import { testIdsConstant } from '../../constants/testIds.constant';
+import { Theme } from '../../theme';
 import {
   createVariants,
   type CreateVariantsConfig,
-} from '@/shared/utility/factories';
-import { isSafeElement } from '@/shared/utility/validators';
+} from '../../utility/factories';
+import { isSafeElement } from '../../utility/validators';
 
 const BaseButton = createBox<Theme, TouchableOpacityProps>(TouchableOpacity);
 

@@ -1,6 +1,6 @@
-import { Button } from '@/shared/components/Button';
-import { Typography } from '@/shared/components/Text';
-import { renderWithTheme } from '@/shared/components/__tests__/misc.utility';
+import { Button } from '..';
+import { Typography } from '../../Text';
+import { renderWithTheme } from '../../__tests__/misc.utility';
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 

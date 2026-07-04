@@ -1,7 +1,7 @@
 import {
   createVariants,
   type VariantConfig,
-} from '@/shared/utility/factories/createVariants.factory';
+} from '../createVariants.factory';
 
 describe('createVariants', () => {
   describe('base styles', () => {

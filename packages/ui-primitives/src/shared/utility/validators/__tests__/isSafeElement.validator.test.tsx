@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-import { isSafeElement } from '@/shared/utility/validators/isSafeElement.validator';
+import { isSafeElement } from '../isSafeElement.validator';
 
 describe('isSafeElement', () => {
   describe('valid React elements', () => {

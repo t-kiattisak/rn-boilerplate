@@ -2,10 +2,10 @@ import React, { memo, useMemo } from 'react';
 import { StyleProp, ViewStyle } from 'react-native';
 import { Shadow, ShadowProps } from 'react-native-shadow-2';
 
-import { BaseComponentProps } from '@/models/common/baseComponent.model';
-import { Box, BoxProps } from '@/shared/components/Box';
-import { theme } from '@/shared/theme';
-import { palette } from '@/shared/theme/colors';
+import { BaseComponentProps } from '../../../models/common/baseComponent.model';
+import { Box, BoxProps } from '../Box';
+import { theme } from '../../theme';
+import { palette } from '../../theme/colors';
 
 export type ShadowVariant =
   | 'none'

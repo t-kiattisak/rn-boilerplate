@@ -1,7 +1,7 @@
 import { useCallback, useRef, useState } from 'react';
 import { GestureResponderEvent, Keyboard } from 'react-native';
 
-import { isPromise } from '@/shared/utility/validators';
+import { isPromise } from '../../../utility/validators';
 
 export interface UseButtonPressParams {
   onPress?: (

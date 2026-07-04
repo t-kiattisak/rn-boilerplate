@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import { FastImageAdapter } from './adapters/FastImageAdapter';
 import type { ImageProps } from './models/image.model';
 
-import { testIdsConstant } from '@/shared/constants/testIds.constant';
+import { testIdsConstant } from '../../constants/testIds.constant';
 
 const FastImageBase: React.FC<ImageProps> = ({
   source,
