@@ -17,7 +17,7 @@ import Zocial from '@react-native-vector-icons/zocial';
 import React from 'react';
 import { TextProps } from 'react-native';
 
-import { useTheme } from '@/app/hooks/core';
+import { useTheme } from '../../theme/useTheme';
 
 interface IconSetMap {
   AntDesign: typeof AntDesign;

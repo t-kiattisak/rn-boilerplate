@@ -2,7 +2,7 @@ import React, { forwardRef, memo } from 'react';
 import { PressableStateCallbackType, StyleProp, ViewStyle } from 'react-native';
 import { Shadow } from 'react-native-shadow-2';
 
-import { useTheme } from '@/app/hooks/core';
+import { useTheme } from '../../theme/useTheme';
 import {
   UnstyleButton,
   UnstyleButtonProps,
