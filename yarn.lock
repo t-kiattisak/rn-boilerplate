@@ -2625,6 +2625,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-vector-icons/ant-design@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/ant-design@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/c96d0ac33f54c1dd47a419479657b398589f07a1da11acc0e52201fc3b84624514366d7fb6d452a5df31ae0332abc56c74f8aa867bbf05ce9c6e1c72c3011cdd
+  languageName: node
+  linkType: hard
+
 "@react-native-vector-icons/common@npm:^13.0.1":
   version: 13.0.1
   resolution: "@react-native-vector-icons/common@npm:13.0.1"
@@ -2651,6 +2667,118 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-vector-icons/entypo@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/entypo@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/4cdd1b2f2e4881aa54ae437ce1b87ec042bc61d591361bb189b2914556922935e94b61a753298c8443682017c4139d87283977eac5cfe3562c1338118017368b
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/evil-icons@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/evil-icons@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/4ffbb97eed31ae44f7f6b66875eec826e751e315341610927a83086886a4ca5e522374f27cd93772197f734fc3792b6af8e3c78d03ecc4fbde09fc7e0da5898a
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/feather@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/feather@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/2a91a5c03b8be1a14b6ca12660e982ba317c75ae8727029176c890a04fe5cbcfe112012129a171b159cc22a56dbabeef884361511841393d325a7e17b13a4292
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/fontawesome5@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/fontawesome5@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/1f2ab89f12dd9b27db9609e4a9839a0faac7590faff5c60404151d03b65275bfdcff335ce751451db1db9059fbc99b3d22a9d41d8916d8fb2fb2dd0431b08548
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/fontawesome6@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/fontawesome6@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/948892e92d26805c3bcfa66c6e5cf364d756394a07a04d75acf8047fffeb47954f444f12f9618d29cc769431c3815ee5f2316c4a656cd7761b451377faac16de
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/fontawesome@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/fontawesome@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/b2714a87a2ca8019a4ed19eef8f96eb0436f858b74ab24e0e9c121909a563b250d79216e91955f7e586852a4881d02df207a9d14aeb88dbe8d43d9ea3f737c1f
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/foundation@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/foundation@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/99997cacada05db1afc90c9b715692a78a52c82e388a0bffbadfec054c0d1fc2d039702a59841b27615f4a759084a26e00d9008f37e4d28a68420690d755eeb7
+  languageName: node
+  linkType: hard
+
 "@react-native-vector-icons/ionicons@npm:13.1.2":
   version: 13.1.2
   resolution: "@react-native-vector-icons/ionicons@npm:13.1.2"
@@ -2664,6 +2792,86 @@ __metadata:
     "@expo/config-plugins":
       optional: true
   checksum: 10/67cf5a9455b188fb67aab8e4065e7b823c3612e408d4cdd70f41fdd4aee3306a3ba943e12d56b6fca775bfb04aeeb70e49a5eb3194c21409a25d29a3885a5d99
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/material-design-icons@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/material-design-icons@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/259c97ff8bd3c5a0783b824a3a784d7ddf843c19355aa6ac731cab134f673283745be6c08aa4f082273268f7663f19e156dca1b0c67b7a31eb7abcf4415693dc
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/material-icons@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/material-icons@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/314b02834d9b9d0bf3fb083cf6a06b92e9eaaa56e43c4108c99de4ab1e8c072f3533af0760b4cad9efd69597f1f73a3b9e03ba4568602d9f14f028437f3c2ae0
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/octicons@npm:21.1.2":
+  version: 21.1.2
+  resolution: "@react-native-vector-icons/octicons@npm:21.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/9a6c865fe35b00c87137843a0f82f743bd7cf59f7cc9c33de5fd7edc05ede8dae83a4960f1ebd18bc98ec4875dafddb33cb3b2d79681d8f0d2dce29fbbf6c064
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/simple-line-icons@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/simple-line-icons@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/bb58b5eef6a9f21c31aca0d6a3462b16d36d9a9b60b87dfb548589d4ba38c0785d4c50953c19daf12301503e0486abea44d5563a432640595d13b64180634e96
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/zocial@npm:13.1.2":
+  version: 13.1.2
+  resolution: "@react-native-vector-icons/zocial@npm:13.1.2"
+  dependencies:
+    "@react-native-vector-icons/common": "npm:^13.0.1"
+  peerDependencies:
+    "@expo/config-plugins": ">=10.0.0"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    "@expo/config-plugins":
+      optional: true
+  checksum: 10/157f141ad2fff9d07fad2ca29c4bf18918918f89a83502181e6f58beb93e14acf27452285971477e7527e6a367eb55fc063177c12c5369c45c9db6a33654dc31
   languageName: node
   linkType: hard
 
@@ -8888,7 +9096,20 @@ __metadata:
     "@react-native-community/cli": "npm:20.1.0"
     "@react-native-community/cli-platform-android": "npm:20.1.0"
     "@react-native-community/cli-platform-ios": "npm:20.1.0"
+    "@react-native-vector-icons/ant-design": "npm:13.1.2"
+    "@react-native-vector-icons/entypo": "npm:13.1.2"
+    "@react-native-vector-icons/evil-icons": "npm:13.1.2"
+    "@react-native-vector-icons/feather": "npm:13.1.2"
+    "@react-native-vector-icons/fontawesome": "npm:13.1.2"
+    "@react-native-vector-icons/fontawesome5": "npm:13.1.2"
+    "@react-native-vector-icons/fontawesome6": "npm:13.1.2"
+    "@react-native-vector-icons/foundation": "npm:13.1.2"
     "@react-native-vector-icons/ionicons": "npm:13.1.2"
+    "@react-native-vector-icons/material-design-icons": "npm:13.1.2"
+    "@react-native-vector-icons/material-icons": "npm:13.1.2"
+    "@react-native-vector-icons/octicons": "npm:21.1.2"
+    "@react-native-vector-icons/simple-line-icons": "npm:13.1.2"
+    "@react-native-vector-icons/zocial": "npm:13.1.2"
     "@react-native/babel-preset": "npm:0.86.0"
     "@react-native/eslint-config": "npm:0.86.0"
     "@react-native/metro-config": "npm:0.86.0"
