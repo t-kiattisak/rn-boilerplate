@@ -1,5 +1,5 @@
 import { withProvider } from '..';
-import { render, screen } from '@testing-library/react-native';
+import { render, screen, within } from '@testing-library/react-native';
 import React from 'react';
 import { Text, View } from 'react-native';
 
@@ -80,11 +80,11 @@ describe('withProvider', () => {
       const provider3 = getByTestId('provider-3');
 
       // Provider1 should contain Provider2
-      expect(provider1).toContainElement(provider2);
+      expect(within(provider1).getByTestId('provider-2')).toBeTruthy();
       // Provider2 should contain Provider3
-      expect(provider2).toContainElement(provider3);
+      expect(within(provider2).getByTestId('provider-3')).toBeTruthy();
       // Provider3 should contain the TestComponent
-      expect(provider3).toContainElement(screen.getByText('Name: Bob'));
+      expect(within(provider3).getByText('Name: Bob')).toBeTruthy();
     });
   });
 
@@ -170,8 +170,8 @@ describe('withProvider', () => {
       const provider2 = screen.getByTestId('provider-2');
 
       // Verify nesting structure
-      expect(provider1).toContainElement(provider2);
-      expect(provider2).toContainElement(screen.getByText('Name: Nested'));
+      expect(within(provider1).getByTestId('provider-2')).toBeTruthy();
+      expect(within(provider2).getByText('Name: Nested')).toBeTruthy();
     });
 
     it('should handle providers that modify children', () => {

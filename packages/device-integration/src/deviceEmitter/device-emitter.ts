@@ -1,7 +1,7 @@
 import type { IDeviceEventEmit } from '@boilerplate/device-sdk';
 import EventEmitter3 from 'eventemitter3';
 
-export class DeviceEmitter<TEvents extends Record<string, unknown>> {
+export class DeviceEmitter<TEvents extends object> {
   private readonly emitter = new EventEmitter3();
 
   emit<K extends keyof TEvents & string>(event: K, data: TEvents[K]): void;

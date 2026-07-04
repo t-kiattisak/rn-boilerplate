@@ -31,7 +31,7 @@ const LoadingBackdropModalBase = ({
         alignItems="center"
         justifyContent="center"
         style={[
-          StyleSheet.absoluteFillObject,
+          StyleSheet.absoluteFill,
           {
             backgroundColor: backdropColor,
           },

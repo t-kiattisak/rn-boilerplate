@@ -2,6 +2,15 @@ import { LinkButton } from '../LinkButton';
 import { renderWithTheme } from '../../__tests__/misc.utility';
 import React, { ComponentProps } from 'react';
 
+declare global {
+  namespace ReactNavigation {
+    interface RootParamList {
+      Atk: undefined;
+      DeepLink: { code: string; state: string };
+    }
+  }
+}
+
 jest.mock('@react-navigation/native', () => ({
   useLinkProps: jest.fn(() => ({
     onPress: jest.fn(),

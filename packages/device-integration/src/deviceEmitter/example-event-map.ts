@@ -7,7 +7,7 @@ export interface ExampleDevice {
   vendor: string;
 }
 
-export interface ExampleEventMap {
+export type ExampleEventMap = {
   'adapter:ready': { sdkName: string };
   'adapter:destroyed': { sdkName: string };
   'scan:result': { devices: ExampleDevice[] };
@@ -18,4 +18,4 @@ export interface ExampleEventMap {
   'device:error': { code: string; message: string; deviceId?: string };
   'measurement:received': MeasurementData;
   'watch:measure': MeasurementData;
-}
+};

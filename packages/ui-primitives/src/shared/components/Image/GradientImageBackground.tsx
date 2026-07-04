@@ -58,7 +58,7 @@ const GradientImageBackgroundBase = ({
     >
       <FastImage
         source={source}
-        style={[StyleSheet.absoluteFillObject, { borderRadius }]}
+        style={[StyleSheet.absoluteFill, { borderRadius }]}
       />
 
       {gradientMode !== 'none' && (
@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   fullGradient: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
 });
 
